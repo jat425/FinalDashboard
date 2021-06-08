@@ -1,1 +1,0 @@
-import{gsap}from"gsap";import{GSDevTools}from"gsap/GSDevTools";let mainTL=gsap.timeline();mainTL.add(fadeInTL),GSDevTools.create();
