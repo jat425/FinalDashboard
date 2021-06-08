@@ -1,29 +1,29 @@
 import { gsap } from "gsap";
-import { GSDevTools } from "gsap/GSDevTools";
+import { LogoTL } from "./Logo"
+import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
+import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 
-// gsap.registerPlugin(GSDevTools);
+gsap.registerPlugin(DrawSVGPlugin, MorphSVGPlugin);
 
-// import { zoomTL } from "./zoomIn"
-// import { fadeInTL } from "./fadeIn"
-// import { RocketTL } from "./Rocket"
-// import { liftOffTL } from "./liftOff"
-// import { flightTL } from "./FlightPath"
-// import { marsZoomTL } from "./marsZoom"
-// import { landingTL } from "./landing"
+
+
 
 let mainTL = gsap.timeline();
 
-mainTL.add(fadeInTL)
+mainTL.add(LogoTL);
         // .add(zoomTL, "-=7")
         // .add(RocketTL, "-=2") 
         // .add(liftOffTL, "-=1") 
         // .add(flightTL, "zoomFlight") 
         // .add(marsZoomTL, "zoomFlight") 
-        // .add(landingTL);
 
 
 
- GSDevTools.create();
+
+// DEVTOOLS:
+// import { GSDevTools } from "gsap/GSDevTools";
+// gsap.registerPlugin(GSDevTools);
+//  GSDevTools.create();
 
 
 
