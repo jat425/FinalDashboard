@@ -3,6 +3,7 @@ import { LogoTL } from "./Logo"
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 import { Screen1TL } from "./Screen1"
+import { Screen2TL } from "./Screen2"
 
 gsap.registerPlugin(DrawSVGPlugin, MorphSVGPlugin);
 
@@ -12,7 +13,8 @@ gsap.registerPlugin(DrawSVGPlugin, MorphSVGPlugin);
 let mainTL = gsap.timeline();
 
 mainTL.add(LogoTL)
-        .add(Screen1TL);
+        .add(Screen1TL)
+        .add(Screen2TL);
         // .add(zoomTL, "-=7")
         // .add(RocketTL, "-=2") 
         // .add(liftOffTL, "-=1") 

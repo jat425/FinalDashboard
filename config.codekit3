@@ -71,12 +71,12 @@
       "oAP" : "\/dev\/content\/svg-container.html",
       "oF" : 0
     },
-    "\/dev\/content\/svg\/Background_Color.kit" : {
+    "\/dev\/content\/svg\/BackgroundColor.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/svg\/Background_Color.html",
+      "oAP" : "\/dev\/content\/svg\/BackgroundColor.html",
       "oF" : 0
     },
     "\/dev\/content\/svg\/Logo.kit" : {
@@ -93,6 +93,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/svg\/Screen2.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/Screen3.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/Screen3.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -141,6 +149,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/js\/Screen2.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/Screen2-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/scripts.js" : {
       "bF" : 4,
       "ft" : 64,
@@ -159,9 +178,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/_shapes.css",
-      "oF" : 2,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/_shapes.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -301,6 +320,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_svg-container.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_svg-container.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

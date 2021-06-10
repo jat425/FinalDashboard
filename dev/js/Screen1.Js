@@ -18,8 +18,9 @@ Screen1TL.from("#MPHWhite",{drawSVG:0, duration:1}, "white")
     .from("#TickMarks",{alpha:0, duration:1}, "info")
     .from("#SpeedText",{alpha:0, duration:1}, "info")
 
-    .from("#MPHFill",{drawSVG:0, duration:2}, "fill")
-    .from("#GasCircleFill",{drawSVG:0, duration:2}, "fill")
-    // .to("#MPHFill",{drawSVG:150, duration:2})
-    .from("#FullyCharged",{alpha:0, duration:.5, yoyo:true, repeat:4})
-
+    .from("#MPHFill",{drawSVG:0, duration:2}, "info")
+    .from("#GasCircleFill",{drawSVG:0, duration:2}, "info")
+    .to("#GasCircleWhite",{alpha:0, duration:0})
+    .to("#MPHFill",{drawSVG:0, duration:2})
+    .from("#FullyCharged",{alpha:0, duration:.5, yoyo:true, repeat:5}, "-=1")
+  
