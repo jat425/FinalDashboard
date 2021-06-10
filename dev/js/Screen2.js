@@ -28,6 +28,8 @@ Screen2TL.to("#BatteryGauge",{scaleX:"-=.65", scaleY:"-=.65", duration: 1}, "Sca
 
 
         .from("#MusicBar",{y:100, duration:1}, "-=1")
+        .from("#SourAlbumCoverSmall",{alpha: 0, duration:1}, "-=1")
+        .from("#SourAlbumCoverSmall",{y:100, duration:1}, "-=1")
         .to("#Pause",{alpha: 0, duration:0}, "-=1")
         // .to("#TimeFill",{alpha: 0, duration:0}, "-=1")
         .from("#MusicLine",{drawSVG:0, duration:1}, "-=.5")
@@ -45,10 +47,12 @@ Screen2TL.to("#BatteryGauge",{scaleX:"-=.65", scaleY:"-=.65", duration: 1}, "Sca
         .from("#MusicWhite",{alpha:0, duration:1}, "-=27")
         .to("#TripOverview",{alpha:0, duration:1}, "-=27")
         .from("#MusicScreen",{alpha:0, duration:1}, "-=27")
+        .from("#SourAlbumCoverBig",{alpha:0, duration:1}, "-=27")
 
         .to("#MusicWhite",{alpha:0, duration:1}, "-=25")
         .from("#PhoneWhite",{alpha:0, duration:1}, "-=25")
         .to("#MusicScreen",{alpha:0, duration:1}, "-=25")
+        .to("#SourAlbumCoverBig",{alpha:0, duration:1}, "-=25")
         .from("#CallScreen",{alpha:0, duration:1}, "-=25")
         .to("#CallScreen",{scaleX: 1.02, scaleY: 1.02, yoyo:true, repeat:3}, "-=24")
 

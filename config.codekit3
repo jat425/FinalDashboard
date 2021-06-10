@@ -33,6 +33,32 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/SourAlbumBig.png" : {
+      "ft" : 32768,
+      "iS" : 41561,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/SourAlbumBig.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/SourAlbumSmall.png" : {
+      "ft" : 32768,
+      "iS" : 4050,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/SourAlbumSmall.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,

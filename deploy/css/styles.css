@@ -418,6 +418,21 @@ textarea {
   grid-template-areas: ". svg-container .";
   height: 100vh;
 }
+@media (min-width: 768px) {
+  #svg-container {
+    grid-template-columns: auto 70% auto;
+  }
+}
+@media (min-width: 992px) {
+  #svg-container {
+    grid-template-columns: auto 60% auto;
+  }
+}
+@media (min-width: 1200px) {
+  #svg-container {
+    grid-template-columns: auto 1200px auto;
+  }
+}
 #svg-container > div {
   display: flex;
   align-items: center;
@@ -425,4 +440,16 @@ textarea {
 }
 #svg-container > div svg {
   width: 100%;
+}
+#svg-container #SourAlbumCoverSmall {
+  width: 4%;
+  padding-top: 60%;
+  padding-left: 14%;
+  position: absolute;
+}
+#svg-container #SourAlbumCoverBig {
+  width: 20%;
+  padding-top: 25%;
+  padding-left: 23%;
+  position: absolute;
 }

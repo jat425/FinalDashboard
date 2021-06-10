@@ -15,16 +15,12 @@ let mainTL = gsap.timeline();
 mainTL.add(LogoTL)
         .add(Screen1TL)
         .add(Screen2TL);
-        // .add(zoomTL, "-=7")
-        // .add(RocketTL, "-=2") 
-        // .add(liftOffTL, "-=1") 
-        // .add(flightTL, "zoomFlight") 
-        // .add(marsZoomTL, "zoomFlight") 
 
 
 
 
-// DEVTOOLS:
+
+// // DEVTOOLS:
 // import { GSDevTools } from "gsap/GSDevTools";
 // gsap.registerPlugin(GSDevTools);
 //  GSDevTools.create();

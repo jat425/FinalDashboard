@@ -5,17 +5,17 @@
 	grid-template-areas: ". svg-container .";
 	height: 100vh;
 
-	// @include md{
-	// 	grid-template-columns: auto 70% auto;
-	// }
+	@include md{
+		grid-template-columns: auto 70% auto;
+	}
 
-	// @include lg{
-	// 	grid-template-columns: auto 60% auto;
-	// }
+	@include lg{
+		grid-template-columns: auto 60% auto;
+	}
 
-	// @include xl{
-	// 	grid-template-columns: auto 1200px auto;
-	// }
+	@include xl{
+		grid-template-columns: auto 1200px auto;
+	}
 
 	>div {
 		display: flex;
@@ -28,7 +28,19 @@
 		}
 	}
 
-}
+    #SourAlbumCoverSmall{
+        width: 4%;
+        padding-top: 60%;
+        padding-left: 14%;
+        position: absolute;
+    }
 
+    #SourAlbumCoverBig{
+        width: 20%;
+        padding-top: 25%;
+        padding-left: 23%;
+        position: absolute;
+    }
+}      
 
 
