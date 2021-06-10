@@ -10,7 +10,6 @@ LogoTL.to("#CX5",{alpha:0, duration:0}, "draw")
     .to("#MazdaLines",{alpha:0, duration:.001}, "hide")
     .to("#LogoLines",{alpha:0, duration:.001}, "hide")
     .to("#MazdaFill",{alpha:0, duration:1}, "merge")
-    // .to("#MazdaFill",{y:"-=200", duration:1}, "hide")
     .to("#LogoFill", {duration: 1, morphSVG:"#CX5"}, "merge")
 
 

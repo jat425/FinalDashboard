@@ -428,11 +428,6 @@ textarea {
     grid-template-columns: auto 60% auto;
   }
 }
-@media (min-width: 1200px) {
-  #svg-container {
-    grid-template-columns: auto 1200px auto;
-  }
-}
 #svg-container > div {
   display: flex;
   align-items: center;
@@ -443,13 +438,45 @@ textarea {
 }
 #svg-container #SourAlbumCoverSmall {
   width: 4%;
-  padding-top: 60%;
+  padding-top: 92%;
   padding-left: 14%;
   position: absolute;
 }
+@media (min-width: 768px) {
+  #svg-container #SourAlbumCoverSmall {
+    width: 4%;
+    padding-top: 66%;
+    padding-left: 18%;
+  }
+}
+@media (min-width: 992px) {
+  #svg-container #SourAlbumCoverSmall {
+    width: 3.5%;
+    padding-top: 44%;
+    padding-left: 22.5%;
+  }
+}
 #svg-container #SourAlbumCoverBig {
   width: 20%;
-  padding-top: 25%;
+  padding-top: 55%;
   padding-left: 23%;
   position: absolute;
+}
+@media (min-width: 768px) {
+  #svg-container #SourAlbumCoverBig {
+    width: 15%;
+    padding-top: 35%;
+    padding-left: 27.5%;
+  }
+}
+@media (min-width: 992px) {
+  #svg-container #SourAlbumCoverBig {
+    width: 15%;
+    padding-top: 17%;
+    padding-left: 30%;
+  }
+}
+
+#MaxSpeed {
+  visibility: hidden;
 }

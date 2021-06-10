@@ -17,9 +17,6 @@ mainTL.add(LogoTL)
         .add(Screen2TL);
 
 
-
-
-
 // // DEVTOOLS:
 // import { GSDevTools } from "gsap/GSDevTools";
 // gsap.registerPlugin(GSDevTools);
