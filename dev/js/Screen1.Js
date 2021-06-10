@@ -29,6 +29,6 @@ Screen1TL.from("#MPHWhite",{drawSVG:0, duration:1}, "white")
     .from("#MaxSpeed",{alpha:1, duration:1}, "unfill")
     .from("#Numbers",{alpha:0, duration:1}, "unfill")
 
-    .to("#MPHFill",{drawSVG:0, duration:1, ease: "power4.out"}, "unfill")
+    .to("#MPHFill",{drawSVG:0, duration:1, ease: "power3.out"}, "unfill")
     .to("#GasCircleWhite",{alpha:0, duration:0})
     .from("#FullyCharged",{alpha:0, duration:.5, yoyo:true, repeat:5}, "-=1")
